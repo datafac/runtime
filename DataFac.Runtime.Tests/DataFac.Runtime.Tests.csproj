@@ -30,7 +30,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\DataFac.Template\DataFac.Runtime.csproj" />
+	  <ProjectReference Include="..\DataFac.Runtime\DataFac.Runtime.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

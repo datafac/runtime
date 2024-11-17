@@ -7,13 +7,13 @@
 		<WarningsAsErrors>nullable</WarningsAsErrors>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageProjectUrl>https://github.com/datafac/template</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/datafac/template</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/datafac/runtime</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/datafac/runtime</RepositoryUrl>
 		<Company>DataFac</Company>
-		<Product>Template</Product>
+		<Product>Runtime</Product>
 		<Authors>DataFac Contributors</Authors>
-		<Title>DataFac Template</Title>
-		<Description>Template for single package repos.</Description>
+		<Title>DataFac Runtime</Title>
+		<Description>Common types for DataFac entities.</Description>
 		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<IncludeSymbols>true</IncludeSymbols>
