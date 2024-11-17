@@ -1,21 +1,14 @@
 using FluentAssertions;
 using Xunit;
 
-namespace DataFac.Template.Tests
+namespace DataFac.Runtime.Tests
 {
     public class MyClassTests
     {
         [Fact]
         public void Test1()
         {
-            // arrange
-            MyClass myClass = new MyClass();
-
-            // act
-            var result = myClass.GetGreeting("World");
-
-            // assert
-            result.Should().Be("Hello, World!");
+            // todo
         }
     }
 }

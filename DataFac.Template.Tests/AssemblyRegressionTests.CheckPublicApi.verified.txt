@@ -1,0 +1,17 @@
+﻿namespace DataFac.Runtime
+{
+    public interface IFreezable : DataFac.Runtime.IMutability
+    {
+        void Freeze();
+        DataFac.Runtime.IFreezable PartCopy();
+    }
+    public interface IImmutable : DataFac.Runtime.IMutability { }
+    public interface IMutability
+    {
+        bool IsFrozen();
+    }
+    public interface IMutable : DataFac.Runtime.IMutability
+    {
+        DataFac.Runtime.IMutable FullCopy();
+    }
+}

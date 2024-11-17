@@ -4,12 +4,12 @@ using System.Threading.Tasks;
 using VerifyXunit;
 using Xunit;
 
-namespace DataFac.Template.Tests
+namespace DataFac.Runtime.Tests
 {
-    public class PublicApiRegressionTests
+    public class AssemblyRegressionTests
     {
         [Fact]
-        public void VersionCheck()
+        public void CheckVersion()
         {
             ThisAssembly.AssemblyVersion.Should().Be("0.1.0.0");
         }
@@ -22,7 +22,7 @@ namespace DataFac.Template.Tests
             {
                 IncludeAssemblyAttributes = false
             };
-            string currentApi = ApiGenerator.GeneratePublicApi(typeof(MyClass).Assembly, options);
+            string currentApi = ApiGenerator.GeneratePublicApi(typeof(IMutability).Assembly, options);
 
             // assert
             await Verifier.Verify(currentApi);

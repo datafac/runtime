@@ -30,7 +30,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\DataFac.Template\DataFac.Template.csproj" />
+	  <ProjectReference Include="..\DataFac.Template\DataFac.Runtime.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="AssemblyRegressionTests.CheckPublicApi.verified.txt">
+	    <DependentUpon>AssemblyRegressionTests.cs</DependentUpon>
+	  </None>
 	</ItemGroup>
 
 </Project>
