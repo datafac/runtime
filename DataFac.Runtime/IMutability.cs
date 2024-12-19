@@ -8,6 +8,6 @@
         /// <summary>
         /// Returns true if the graph cannot be modified.
         /// </summary>
-        bool IsFrozen();
+        bool IsFrozen { get; }
     }
 }
