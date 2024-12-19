@@ -11,7 +11,7 @@ namespace DataFac.Runtime.Tests
         [Fact]
         public void CheckVersion()
         {
-            ThisAssembly.AssemblyVersion.Should().Be("0.1.0.0");
+            ThisAssembly.AssemblyVersion.Should().Be("0.2.0.0");
         }
 
         [Fact]

@@ -8,7 +8,7 @@
     public interface IImmutable : DataFac.Runtime.IMutability { }
     public interface IMutability
     {
-        bool IsFrozen();
+        bool IsFrozen { get; }
     }
     public interface IMutable : DataFac.Runtime.IMutability
     {
