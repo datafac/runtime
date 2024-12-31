@@ -1,4 +1,6 @@
 # Datafac.Runtime
-Common types used at runtime by DataFac entities.
 
-[![Build-Deploy](https://github.com/datafac/runtime/actions/workflows/dotnet.yml/badge.svg)](https://github.com/datafac/runtime/actions/workflows/dotnet.yml)
+*Package has been deprecated*
+
+Types have been moved to DTOMaker.Runtime at: https://github.com/datafac/dtomaker-core
+
